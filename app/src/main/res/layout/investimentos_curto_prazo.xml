@@ -15,12 +15,33 @@
         android:textColor="@color/white"
         android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imagemMenu"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="47dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/yellow" />
 
-                                                                                                                                                                                                                                                                  </LinearLayout>
+        <ImageView
+            android:id="@+id/iconeOuro"
+            android:layout_width="47dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/yellow" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:background="@color/yellow"
+            android:text="Investimento Curto Prazo" />
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,39 +53,14 @@
             android:orientation="vertical"
             android:padding="25dp">
 
-            <LinearLayout
-                android:layout_width="379dp"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="60dp"
-                    android:layout_height="55dp"
-                    android:layout_marginRight="16dp"
-                    android:text="testando ?" />
-
-                <Button
-                    android:id="@+id/teste"
-                    android:layout_width="134dp"
-                    android:layout_height="wrap_content"
-                    android:background="#C81717"
-                    android:backgroundTint="#C62424"
-                    android:text="menu" />
-
-                <TextView
-                    android:layout_width="55dp"
-                    android:layout_height="60dp"
-                    android:layout_marginLeft="16dp"
-                    android:text="Para traders" />
-
-            </LinearLayout>
 
             <TextView
                 style="@style/titulos"
-                android:layout_width="match_parent"
-                android:layout_height="37dp"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
                 android:text="@string/investimento_curto_prazo"
-                android:textAlignment="center" />
+                />
 
             <TextView
                 style="@style/textos"
@@ -75,13 +71,14 @@
 
             <ImageView
                 android:id="@+id/imagemUm"
+                android:layout_gravity="center"
                 android:layout_width="332dp"
                 android:layout_height="96dp" />
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="76dp"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
                 android:layout_margin="20dp"
                 android:text="@string/texto_dois"
 
@@ -90,7 +87,8 @@
             <TextView
                 style="@style/titulos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
                 android:text="@string/recomendaçoes_investimentos"
                 android:textAlignment="center" />
 
@@ -105,40 +103,40 @@
             <TextView
                 style="@style/titulos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
                 android:text="Algumas recomendações incluem:" />
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
                 android:layout_margin="20dp"
-                android:gravity="center"
                 android:text="@string/tesouro_selic" />
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:gravity="center"
-                android:text="CDB com liquidez diária: é um investimento de renda fixa oferecido por bancos e financeiras. Assim como o Tesouro Selic, possui liquidez diária e é uma boa opção para quem precisa de dinheiro em curto prazo." />
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_margin="20dp"
+                android:text="CDB com liquidez diária: \n é um investimento de renda fixa oferecido por bancos e financeiras. Assim como o Tesouro Selic, possui liquidez diária e é uma boa opção para quem precisa de dinheiro em curto prazo." />
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="93dp"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="Fundos DI: são fundos de investimento que aplicam em títulos públicos e privados de baixo risco, como CDBs e letras financeiras. Possuem liquidez diária e podem ser uma opção interessante para quem busca uma rentabilidade um pouco maior do que a do Tesouro Selic." />
+                android:text="Fundos DI:  \n são fundos de investimento que aplicam em títulos públicos e privados de baixo risco, como CDBs e letras financeiras. Possuem liquidez diária e podem ser uma opção interessante para quem busca uma rentabilidade um pouco maior do que a do Tesouro Selic." />
 
 
             <TextView
                 style="@style/textos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="106dp"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="Fundos de renda fixa com prazo de resgate curto: são fundos que investem em títulos de renda fixa, como CDBs, LCIs e LCAs, e possuem um prazo de resgate mais curto do que a maioria dos fundos de renda fixa. Podem ser uma opção interessante para quem busca um pouco mais de rentabilidade e pode esperar alguns dias para resgatar o dinheiro." />
+                android:text="Fundos de renda fixa com prazo de resgate curto: \n\n São fundos que investem em títulos de renda fixa, como CDBs, LCIs e LCAs, e possuem um prazo de resgate mais curto do que a maioria dos fundos de renda fixa. Podem ser uma opção interessante para quem busca um pouco mais de rentabilidade e pode esperar alguns dias para resgatar o dinheiro." />
 
             <TextView
                 style="@style/titulos"
@@ -152,14 +150,15 @@
             <TextView
                 style="@style/textos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="220dp"
                 android:layout_margin="20dp"
                 android:text="@string/preciso_para_investir" />
 
             <TextView
                 style="@style/titulos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
                 android:text="5 Passos para poder Investir"
                 android:textAlignment="center" />
 
@@ -170,18 +169,26 @@
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_margin="20dp"
                 android:text="@string/definir_objetivos_financeiros"
-                android:textAlignment="center" />
+                 />
 
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_margin="20dp"
                 android:text="@string/tipo_de_investimento"
-                android:textAlignment="center" />
+                 />
+
+            <ImageView
+                android:id="@+id/imagemTres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
 
             <TextView
                 style="@style/textos"
@@ -192,17 +199,19 @@
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_margin="20dp"
                 android:text="@string/plano_de_investimento"
-                android:textAlignment="center" />
+                />
 
             <TextView
                 style="@style/textos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_margin="20dp"
                 android:text="@string/consulte_um_especialista"
-                android:textAlignment="center" />
+                />
 
 
         </LinearLayout>

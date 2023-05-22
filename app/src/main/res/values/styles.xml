@@ -2,16 +2,17 @@
 <resources>
 
 
-    /*PAGINA que abre o aplicativo*/
+
     <style name="botao_inicial">
-        <item name="android:textColor">#FFFFFFFF</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:textSize">22dp</item>
+        <item name="android:background">#FF788707</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:padding">2dp</item>
     </style>
 
-    /*investimento_curto_prazo*/
+
     <style name="Botaomenu">
         <item name="android:background">#FFFF0000</item>
 
@@ -36,9 +37,12 @@
     </style>
 
 
-
-
-
-
+    <style name="textos_medio">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
 
 </resources>

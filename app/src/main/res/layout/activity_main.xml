@@ -5,16 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
     android:background="@color/black"
     tools:context=".MainActivity" >
 
 
-    <Button
-        style="@style/botao_inicial"
-        android:id="@+id/fixo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Seja Bem vindo!"
+   <TextView
+       style="@style/botao_inicial"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:text="Seja bem Vindo"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
        />
 
     <TextView
@@ -29,6 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+
     <TextView
         style="@style/titulos"
         android:layout_width="316dp"
@@ -39,49 +44,50 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        />
-
-    <Button
-        style="@style/botao_inicial"
-        android:id="@+id/medio"
-        android:background="@color/yellow"
-        android:layout_width="200dp"
-        android:layout_height="43dp"
-        android:text="Curto prazo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454" />
+        app:layout_constraintVertical_bias="0.515" />
 
     <TextView
-        style="@style/titulos"
+        android:id="@+id/curtoPrazo"
+        style="@style/botao_inicial"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="Curto prazo"
+        android:onClick="abrirOutraPagina"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <TextView
+        style="@style/botao_inicial"
         android:layout_width="291dp"
-        android:layout_height="29dp"
+        android:layout_height="48dp"
         android:text="Investimento de curto prazo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346"
+        app:layout_constraintVertical_bias="3.00"
         />
 
-    <Button
+    <TextView
         style="@style/botao_inicial"
-        android:id="@+id/curtoPrazo"
         android:layout_width="200dp"
-        android:layout_height="43dp"
-        android:text=" medio Prazo"
+        android:layout_height="48dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="medio Prazo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646"
-        />
+        app:layout_constraintVertical_bias="0.607" />
 
     <TextView
         style="@style/titulos"
@@ -93,22 +99,22 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747"
-        />
+        app:layout_constraintVertical_bias="0.711" />
 
-    <Button
+    <TextView
         style="@style/botao_inicial"
-        android:id="@+id/Botaomenu"
-        android:layout_width="200dp"
-        android:layout_height="43dp"
-        android:text="Longo Prazo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.838"
-        />
+        android:id="@+id/longoPrazo"
+     android:layout_width="200dp"
+     android:layout_height="48dp"
+    android:autoLink="web"
+    android:linksClickable="true"
+     android:text="Longo Prazo"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.464"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.838" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
