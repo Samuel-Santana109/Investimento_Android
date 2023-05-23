@@ -2,7 +2,6 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/black"
@@ -16,6 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="16dp"
             android:orientation="vertical"
             android:padding="5dp">
 
@@ -37,64 +37,75 @@
                 <TextView
                     style="@style/textos_medio"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="168dp"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
                     android:text="@string/tesouro_direto" />
 
                 <ImageView
                     android:id="@+id/imagemMedioUm"
-                    android:layout_width="416dp"
-                    android:layout_height="99dp" />
+                    android:layout_width="400dp"
+                    android:layout_height="99dp"
+                    android:layout_margin="16dp" />
 
                 <TextView
                     style="@style/textos_medio"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_margin="16dp"
                     android:layout_marginLeft="16dp"
                     android:text="@string/letras" />
 
                 <ImageView
-                    android:id="@+id/imagemMediDois"
+                    android:id="@+id/imagemMedioDois"
                     android:layout_width="match_parent"
-                    android:layout_height="96dp" />
+                    android:layout_height="96dp"
+                    android:layout_margin="16dp" />
 
                 <TextView
                     style="@style/textos_medio"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
                     android:text="@string/cdb" />
 
                 <ImageView
                     android:id="@+id/imagemMedioTres"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:layout_height="100dp"
+                    android:layout_margin="16dp" />
+
                 <TextView
                     style="@style/textos_medio"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16dp"
+                    android:layout_margin="16dp"
                     android:text="@string/fundos_investimentos" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" >
-
-                    <VideoView
-                        android:id="@+id/videoView"
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp" />
-
-
+                    android:orientation="vertical"
+                    android:layout_margin="16dp" >
 
                     <TextView
                         style="@style/textos_medio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
                         android:text="@string/conteudo"
                         />
+
+
             </LinearLayout>
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_margin="16dp" />
 
             </LinearLayout>
 

@@ -15,7 +15,7 @@ class investimento_medio_prazo : AppCompatActivity() {
             val imageUm = findViewById<ImageView>(R.id.imagemMedioUm)
             imageUm.load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8P9h5hDtVuJGIWcUpbg8f3bBFEgm5T6NSQ&usqp=CAU")
 
-            val imagemMediDois = findViewById<ImageView>(R.id.imagemMediDois)
+            val imagemMediDois = findViewById<ImageView>(R.id.imagemMedioDois)
             imagemMediDois.load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsGD0XtTwWGXbMhW3XrNoUjh8cpoip3hIsg&usqp=CAU")
 
             val imagemMedioTres = findViewById<ImageView>(R.id.imagemMedioTres)

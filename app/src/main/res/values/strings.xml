@@ -30,7 +30,7 @@
     <string name="tipo_de_investimento">Escolha o tipo de investimento: \n Existem diferentes tipos de investimentos disponíveis no mercado, cada um com suas próprias características e riscos.
         \n Para investir a curto prazo, você pode considerar investir em renda fixa, como títulos públicos, CDBs, LCIs, LCAs, entre outros, que são considerados menos arriscados e oferecem uma rentabilidade previsível.</string>
 
-    <string name="avaliar_risco_liquidez">Avalie os riscos e a liquidez:  É importante avaliar os riscos e a liquidez do investimento escolhido, especialmente quando se trata de investimentos a curto prazo.
+    <string name="avaliar_risco_liquidez">Avalie os riscos e a liquidez:  É importante avaliar os riscos e a liquidez do investimento escolhido, especialmente quando se trata de investimentos a curto prazo. /n
         \n Os investimentos de renda fixa geralmente são mais seguros e previsíveis, mas a liquidez pode ser limitada. Por outro lado, investimentos de renda variável, como ações, podem oferecer retornos mais altos, mas também são mais arriscados e podem ter flutuações de curto prazo</string>
 
     <string name="plano_de_investimento">Tenha um plano de investimento: \n É importante ter um plano de investimento definido, incluindo o valor a ser investido, o prazo e o objetivo financeiro a ser alcançado. Mantenha-se atualizado sobre as condições de mercado e faça ajustes em seu plano, se necessário.</string>

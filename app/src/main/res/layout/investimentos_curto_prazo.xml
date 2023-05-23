@@ -15,16 +15,10 @@
         android:textColor="@color/white"
         android:orientation="horizontal">
 
-        <Button
-            android:layout_width="47dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@color/yellow" />
+
 
         <ImageView
-            android:id="@+id/iconeOuro"
+            android:id="@+id/icone"
             android:layout_width="47dp"
             android:layout_height="40dp"
             android:layout_marginLeft="35dp"
@@ -107,6 +101,12 @@
                 android:layout_gravity="center"
                 android:text="Algumas recomendações incluem:" />
 
+            <ImageView
+                android:id="@+id/imagemDois"
+                android:layout_width="322dp"
+                android:layout_height="112dp"
+                android:layout_margin="16dp" />
+
             <TextView
                 style="@style/textos"
                 android:layout_width="match_parent"
@@ -163,9 +163,10 @@
                 android:textAlignment="center" />
 
             <ImageView
-                android:id="@+id/imagemDois"
-                android:layout_width="373dp"
-                android:layout_height="112dp" />
+                android:id="@+id/imagemTres"
+                android:layout_width="360dp"
+                android:layout_height="112dp"
+                android:layout_margin="15dp"/>
 
             <TextView
                 style="@style/textos"
@@ -185,7 +186,7 @@
                  />
 
             <ImageView
-                android:id="@+id/imagemTres"
+                android:id="@+id/imagemQuatro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
