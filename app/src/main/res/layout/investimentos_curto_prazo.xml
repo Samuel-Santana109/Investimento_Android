@@ -183,10 +183,15 @@
                 android:text="@string/consulte_um_especialista"
                 />
 
-            <VideoView
-                android:id="@+id/videoView"
-                style="@style/video"
-                />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    style="@style/video" />
+            </FrameLayout>
 
 
         </LinearLayout>
