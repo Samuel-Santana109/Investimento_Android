@@ -16,10 +16,10 @@
 
     <string name="onde_devo_investir">Onde Investir ?</string>
 
-    <string name="preciso_para_investir">Para saber como investir: \n
-       1- É preciso ter um bom planejamento financeiro; \n
-       2- Definir perfil e objetivos de curto, médio e longo prazos; \n
-       3- Ter conta ativa em uma corretora de valores; \n
+    <string name="preciso_para_investir">Para saber como investir: \n  \n
+       1- É preciso ter um bom planejamento financeiro; \n  \n
+       2- Definir perfil e objetivos de curto, médio e longo prazos; \n  \n
+       3- Ter conta ativa em uma corretora de valores; \n  \n
        4- Conhecer os produtos do mercado financeiro e construir uma boa carteira diversificada de investimentos. \n</string>
 
         /*definir_objetivos_financeiros*/
@@ -36,6 +36,9 @@
     <string name="plano_de_investimento">Tenha um plano de investimento: \n É importante ter um plano de investimento definido, incluindo o valor a ser investido, o prazo e o objetivo financeiro a ser alcançado. Mantenha-se atualizado sobre as condições de mercado e faça ajustes em seu plano, se necessário.</string>
 
     <string name="consulte_um_especialista">Consulte um especialista: \n Se você não tem experiência em investimentos ou não se sente confortável tomando decisões financeiras, considere consultar um especialista, como um consultor financeiro ou um corretor de valores mobiliários, para obter orientação e conselhos personalizados.</string>
+    <string name="cdb_com_liquidez_di_ria_n_um_investimento_de_renda_fixa_oferecido_por_bancos_e_financeiras_assim_como_o_tesouro_selic_possui_liquidez_di_ria_e_uma_boa_op_o_para_quem_precisa_de_dinheiro_em_curto_prazo">CDB com liquidez diária: \n é um investimento de renda fixa oferecido por bancos e financeiras. Assim como o Tesouro Selic, possui liquidez diária e é uma boa opção para quem precisa de dinheiro em curto prazo.</string>
+    <string name="fundos_di_n_s_o_fundos_de_investimento_que_aplicam_em_t_tulos_p_blicos_e_privados_de_baixo_risco_como_cdbs_e_letras_financeiras_possuem_liquidez_di_ria_e_podem_ser_uma_op_o_interessante_para_quem_busca_uma_rentabilidade_um_pouco_maior_do_que_a_do_tesouro_selic">Fundos DI: \n são fundos de investimento que aplicam em títulos públicos e privados de baixo risco, como CDBs e letras financeiras. Possuem liquidez diária e podem ser uma opção interessante para quem busca uma rentabilidade um pouco maior do que a do Tesouro Selic.</string>
+    <string name="algumas_recomenda_es_incluem">Algumas recomendações incluem:</string>
 
 </resources>
 

@@ -20,19 +20,17 @@
             android:padding="5dp">
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <TextView
                     style="@style/titulos"
-                    android:textAlignment="center"
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:text="Investimentos a medio prazo"
-                    />
+                    android:textAlignment="center" />
 
                 <TextView
                     style="@style/textos_medio"
@@ -44,9 +42,7 @@
 
                 <ImageView
                     android:id="@+id/imagemMedioUm"
-                    android:layout_width="400dp"
-                    android:layout_height="99dp"
-                    android:layout_margin="16dp" />
+                    style="@style/imagem" />
 
                 <TextView
                     style="@style/textos_medio"
@@ -58,9 +54,7 @@
 
                 <ImageView
                     android:id="@+id/imagemMedioDois"
-                    android:layout_width="match_parent"
-                    android:layout_height="96dp"
-                    android:layout_margin="16dp" />
+                    style="@style/imagem" />
 
                 <TextView
                     style="@style/textos_medio"
@@ -72,40 +66,36 @@
 
                 <ImageView
                     android:id="@+id/imagemMedioTres"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_margin="16dp" />
+                    style="@style/imagem" />
 
                 <TextView
                     style="@style/textos_medio"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="16dp"
                     android:layout_margin="16dp"
+                    android:layout_marginLeft="16dp"
                     android:text="@string/fundos_investimentos" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:layout_margin="16dp" >
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/textos_medio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
-                        android:text="@string/conteudo"
-                        />
+                        android:text="@string/conteudo" />
 
 
-            </LinearLayout>
+                </LinearLayout>
 
                 <VideoView
                     android:id="@+id/videoView"
-                    android:layout_width="match_parent"
-                    android:layout_height="105dp"
-                    android:layout_margin="16dp" />
+                    style="@style/video"
+                    />
 
             </LinearLayout>
 

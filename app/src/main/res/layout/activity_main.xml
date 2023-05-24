@@ -17,14 +17,14 @@
        android:text="Seja bem Vindo"
        />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
  <LinearLayout
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:orientation="vertical"
-     android:gravity="center"
-
-     >
-
+     android:gravity="center">
 
   <TextView
       style="@style/titulos"
@@ -80,7 +80,25 @@
      android:linksClickable="true"
      android:onClick="paginaLongPrazo"
      android:text="Longo Prazo" />
+
+     <TextView
+         style="@style/titulos"
+         android:layout_width="wrap_content"
+         android:layout_height="24dp"
+         android:layout_gravity="center"
+         android:text="O que eu preciso pra poder investir ?"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+     <TextView
+         style="@style/textos"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:text="@string/preciso_para_investir" />
+
  </LinearLayout>
+</ScrollView>
 
 
 </LinearLayout>

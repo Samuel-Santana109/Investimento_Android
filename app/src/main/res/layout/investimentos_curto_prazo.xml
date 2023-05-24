@@ -65,9 +65,7 @@
 
             <ImageView
                 android:id="@+id/imagemUm"
-                android:layout_gravity="center"
-                android:layout_width="332dp"
-                android:layout_height="96dp" />
+                style="@style/imagem" />
 
             <TextView
                 style="@style/textos"
@@ -99,13 +97,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="24dp"
                 android:layout_gravity="center"
-                android:text="Algumas recomendações incluem:" />
+                android:text="@string/algumas_recomenda_es_incluem" />
 
             <ImageView
                 android:id="@+id/imagemDois"
-                android:layout_width="322dp"
-                android:layout_height="112dp"
-                android:layout_margin="16dp" />
+                style="@style/imagem" />
 
             <TextView
                 style="@style/textos"
@@ -119,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="106dp"
                 android:layout_margin="20dp"
-                android:text="CDB com liquidez diária: \n é um investimento de renda fixa oferecido por bancos e financeiras. Assim como o Tesouro Selic, possui liquidez diária e é uma boa opção para quem precisa de dinheiro em curto prazo." />
+                android:text="@string/cdb_com_liquidez_di_ria_n_um_investimento_de_renda_fixa_oferecido_por_bancos_e_financeiras_assim_como_o_tesouro_selic_possui_liquidez_di_ria_e_uma_boa_op_o_para_quem_precisa_de_dinheiro_em_curto_prazo" />
 
             <TextView
                 style="@style/textos"
@@ -127,7 +123,7 @@
                 android:layout_height="106dp"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="Fundos DI:  \n são fundos de investimento que aplicam em títulos públicos e privados de baixo risco, como CDBs e letras financeiras. Possuem liquidez diária e podem ser uma opção interessante para quem busca uma rentabilidade um pouco maior do que a do Tesouro Selic." />
+                android:text="@string/fundos_di_n_s_o_fundos_de_investimento_que_aplicam_em_t_tulos_p_blicos_e_privados_de_baixo_risco_como_cdbs_e_letras_financeiras_possuem_liquidez_di_ria_e_podem_ser_uma_op_o_interessante_para_quem_busca_uma_rentabilidade_um_pouco_maior_do_que_a_do_tesouro_selic" />
 
 
             <TextView
@@ -138,21 +134,6 @@
                 android:gravity="center"
                 android:text="Fundos de renda fixa com prazo de resgate curto: \n\n São fundos que investem em títulos de renda fixa, como CDBs, LCIs e LCAs, e possuem um prazo de resgate mais curto do que a maioria dos fundos de renda fixa. Podem ser uma opção interessante para quem busca um pouco mais de rentabilidade e pode esperar alguns dias para resgatar o dinheiro." />
 
-            <TextView
-                style="@style/titulos"
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:layout_gravity="center"
-                android:text="O que eu preciso pra poder investir ?"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                style="@style/textos"
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:layout_margin="20dp"
-                android:text="@string/preciso_para_investir" />
 
             <TextView
                 style="@style/titulos"
@@ -164,9 +145,7 @@
 
             <ImageView
                 android:id="@+id/imagemTres"
-                android:layout_width="360dp"
-                android:layout_height="112dp"
-                android:layout_margin="15dp"/>
+                style="@style/imagem"/>
 
             <TextView
                 style="@style/textos"
@@ -187,8 +166,7 @@
 
             <ImageView
                 android:id="@+id/imagemQuatro"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/imagem"
                 />
 
             <TextView
@@ -212,6 +190,11 @@
                 android:layout_height="106dp"
                 android:layout_margin="20dp"
                 android:text="@string/consulte_um_especialista"
+                />
+
+            <VideoView
+                android:id="@+id/videoView"
+                style="@style/video"
                 />
 
 
