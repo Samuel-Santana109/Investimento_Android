@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <meta-data
+        android:name="nome_do_metadado"
+        android:value="valor_do_metadado" />
+
+
 
     <application
         android:allowBackup="true"
@@ -19,6 +24,7 @@
             android:name=".MainActivity"
             android:exported="true"
             tools:ignore="MissingClass">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

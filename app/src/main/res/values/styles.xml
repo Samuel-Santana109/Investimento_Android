@@ -45,7 +45,7 @@
     </style>
 
     <style name="titulos">
-        <item name="android:textColor">#FFEB3B</item>
+        <item name="android:textColor">#FFFFFFFF</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>

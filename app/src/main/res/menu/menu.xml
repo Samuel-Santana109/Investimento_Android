@@ -4,6 +4,11 @@
 
 
     <item
+        android:id="@+id/activityMain"
+        android:title="Pagina Inicial"
+        />
+
+    <item
         android:id="@+id/curtoPrazo"
         android:title="investimento Curto Prazo"
         app:showAsAction="collapseActionView"
