@@ -24,5 +24,4 @@ class investimento_longo_prazo : AppCompatActivity() {
         imagemMedioTres.load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRphh2z_mpFov5_rZNmyKAmTXfJewN-M4G1qg&usqp=CAU")
 
     }
-
 }
