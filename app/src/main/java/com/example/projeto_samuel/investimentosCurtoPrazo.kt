@@ -20,7 +20,7 @@ class investimentosCurtoPrazo : AppCompatActivity() {
 
 
         val videoView = findViewById<VideoView>(R.id.videoView)
-                val uri = Uri.parse("https://www.youtube.com/watch?v=HO4lWzdPSkA&list=PPSV")
+                val uri = Uri.parse("https://www.youtube.com/watch?v=NMTmXh4855c")
                 videoView.setVideoURI(uri)
 
                 val mediaController = MediaController(this)
