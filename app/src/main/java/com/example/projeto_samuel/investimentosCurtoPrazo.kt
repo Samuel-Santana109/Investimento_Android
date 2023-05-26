@@ -1,12 +1,10 @@
 package com.example.projeto_samuel
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
-import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
 
@@ -69,8 +67,6 @@ class investimentosCurtoPrazo : AppCompatActivity() {
                         }
                 }
         }
-
-
 }
 
 

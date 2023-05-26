@@ -48,6 +48,21 @@
                     android:text="@string/introducao"
                     />
 
+
+                    <TextView
+                        style="@style/textos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/previdencia_privada"
+                        />
+
+                    <TextView
+                        style="@style/textos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/investimento_startups"
+                        />
+
                     <ImageView
                         android:id="@+id/imagemLongoUm"
                         style="@style/imagem" />
@@ -78,6 +93,13 @@
                         style="@style/imagem"
                         />
 
+                    <TextView
+                        style="@style/textos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/previdencia_privada"
+                        />
+
                 <TextView
                     style="@style/textos"
                     android:layout_width="match_parent"
@@ -104,6 +126,22 @@
                     android:text="@string/atençao"
                     />
 
+                    <TextView
+                    style="@style/textos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/titulos_governo"
+                    />
+
+                    <TextView
+                        style="@style/textos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/fundos_mutuos"
+                        />
+
+
+
                     <VideoView
                        android:id="@+id/videoLongoPrazo"
                         style="@style/video"
@@ -112,8 +150,6 @@
                 </LinearLayout>
 
             </ScrollView>
-
-
     </LinearLayout>
 
 </LinearLayout>

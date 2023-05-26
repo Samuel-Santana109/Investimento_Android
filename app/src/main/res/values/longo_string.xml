@@ -27,7 +27,21 @@
         Antes de investir a longo prazo, é importante fazer uma análise do seu perfil de investidor e avaliar os riscos e benefícios de cada opção de investimento, buscando orientação de um profissional especializado, se necessário.
     </string>
 
+    <string name="titulos_governo">
+Títulos do governo: /n
+        Títulos do governo, como títulos do Tesouro, oferecem um retorno fixo sobre o investimento ao longo de um período definido. Eles são considerados investimentos de menor risco em comparação com ações, embora os retornos possam ser mais modestos.
+    </string>
 
+
+    <string name="previdencia_privada">
+        Planos de Previdência Privada: /n
+        Os planos de previdência privada são uma forma de investimento a longo prazo voltada para a aposentadoria. Eles podem ser oferecidos por seguradoras ou fundos de pensão e oferecem benefícios fiscais. Os investidores fazem contribuições ao longo do tempo e, no momento da aposentadoria, recebem os benefícios acumulados.
+     </string>
+
+    <string name="investimento_startups">
+         Investimento em startups: /n
+Investir em startups é uma opção de investimento de alto risco, mas com potencial de retorno significativo. Os investidores fornecem capital para startups em estágio inicial em troca de participação acionária. Esse tipo de investimento requer pesquisa cuidadosa e conhecimento do mercado de startups.
+     </string>
 
 
     <string name="fundos_investimentos">
