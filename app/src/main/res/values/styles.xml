@@ -2,33 +2,35 @@
 <resources>
 
     <style name="video">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">145dp</item>
-        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:gravity">center</item>
         <item name="android:layout_margin">15dp</item>
     </style>
 
 
     <style name="imagem">
-        <item name="android:layout_width">350dp</item>
-        <item name="android:layout_height">125dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">18dp</item>
     </style>
 
     <style name="botao_inicial">
-        <item name="android:background">#FF788707</item>
+        <item name="android:background">#FFFFEB3B</item>
         <item name="android:textColor">#FF000000</item>
-        <item name="android:textSize">25dp</item>
+        <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:padding">2dp</item>
+        <item name="android:padding">1dp</item>
         <item name="android:layout_margin">25dp</item>
         <item name="android:gravity">center</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_width">200dp</item>
     </style>
 
 
     <style name="Botaomenu">
-        <item name="android:background">#FF788707</item>
+        <item name="android:background">#FFFFEB3B</item>
         <item name="android:textColor">#FF000000</item>
         <item name="android:textSize">25dp</item>
         <item name="android:textStyle">bold</item>
@@ -49,6 +51,9 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+
     </style>
 
     <style name="fundo">

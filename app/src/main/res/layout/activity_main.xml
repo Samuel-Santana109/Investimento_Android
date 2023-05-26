@@ -13,7 +13,7 @@
        style="@style/Botaomenu"
        android:layout_width="match_parent"
        android:layout_height="60dp"
-       android:text="Seja bem Vindo"
+       android:text="Bem Vindo !!"
        />
 
     <ScrollView
@@ -36,56 +36,36 @@
 
   <TextView
      style="@style/titulos"
-     android:layout_width="291dp"
-     android:layout_height="48dp"
      android:text="Investimento de curto prazo" />
 
- <TextView
-        style="@style/botao_inicial"
-        android:id="@+id/curtoPrazo"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:text="Curto prazo"
-
-        />
+     <TextView
+         android:id="@+id/curtoPrazo"
+         style="@style/botao_inicial"
+         android:text="Curto prazo" />
 
  <TextView
      style="@style/titulos"
-     android:layout_width="316dp"
-     android:layout_height="30dp"
      android:text="Investimento de medio Prazo"
      />
 
  <TextView
         style="@style/botao_inicial"
         android:id="@+id/medioPrazo"
-        android:layout_width="200dp"
-        android:layout_height="48dp"
         android:text="medio Prazo"
        />
 
     <TextView
         style="@style/titulos"
-        android:layout_width="367dp"
-        android:layout_height="35dp"
         android:text="Investimento de Longo Prazo"
          />
 
  <TextView
      style="@style/botao_inicial"
      android:id="@+id/longoPrazo"
-     android:layout_width="200dp"
-     android:layout_height="48dp"
-     android:autoLink="web"
-     android:linksClickable="true"
-     android:onClick="paginaLongPrazo"
      android:text="Longo Prazo" />
 
      <TextView
          style="@style/titulos"
-         android:layout_width="wrap_content"
-         android:layout_height="24dp"
-         android:layout_gravity="center"
          android:text="O que eu preciso pra poder investir ?"
          android:textSize="20sp"
          android:textStyle="bold" />
@@ -94,10 +74,12 @@
          style="@style/textos"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_margin="20dp"
+         android:padding="10dp"
+         android:layout_margin="10dp"
          android:text="@string/preciso_para_investir" />
 
  </LinearLayout>
+
 </ScrollView>
 
 </LinearLayout>
