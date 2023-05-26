@@ -12,9 +12,8 @@ class investimentoMedioPrazo : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.investimento_medio_prazo)
 
-            /*val imageMenu = findViewById<ImageView>(R.id.)
-            imageMenu.load((""))*/
 
+            //Chama a imagem da internet e coloca ela no xml
             val imageUm = findViewById<ImageView>(R.id.imagemMedioUm)
             imageUm.load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8P9h5hDtVuJGIWcUpbg8f3bBFEgm5T6NSQ&usqp=CAU")
 
@@ -26,10 +25,10 @@ class investimentoMedioPrazo : AppCompatActivity() {
 
         }
 
-    //Lozalizou o menu que é no arquivo menu.xml
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu, menu)
-        return super.onCreateOptionsMenu(menu)
+        //Lozalizou o menu que é no arquivo menu.xml
+        override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+            menuInflater.inflate(R.menu.menu, menu)
+            return super.onCreateOptionsMenu(menu)
     }
 
 
@@ -62,6 +61,4 @@ class investimentoMedioPrazo : AppCompatActivity() {
             }
         }
     }
-
-
     }

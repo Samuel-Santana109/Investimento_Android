@@ -167,6 +167,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical">
 
+
+
                 <VideoView
                     android:id="@+id/videoView"
                     style="@style/video" />
