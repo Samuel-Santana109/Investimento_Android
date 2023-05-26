@@ -27,7 +27,24 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".investimentosCurtoPrazo"
+            android:exported="true" >
+        </activity>
 
+        <activity
+            android:name=".investimentoMedioPrazo"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".investimentoLongoPrazo"
+            android:exported="true" >
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:value="valor_do_seu_meta_data" />
     </application>
 
 </manifest>
