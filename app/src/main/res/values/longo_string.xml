@@ -28,25 +28,24 @@
     </string>
 
     <string name="titulos_governo">
-Títulos do governo: /n
+Títulos do governo:
         Títulos do governo, como títulos do Tesouro, oferecem um retorno fixo sobre o investimento ao longo de um período definido. Eles são considerados investimentos de menor risco em comparação com ações, embora os retornos possam ser mais modestos.
     </string>
 
 
     <string name="previdencia_privada">
-        Planos de Previdência Privada: /n
+        Planos de Previdência Privada:
         Os planos de previdência privada são uma forma de investimento a longo prazo voltada para a aposentadoria. Eles podem ser oferecidos por seguradoras ou fundos de pensão e oferecem benefícios fiscais. Os investidores fazem contribuições ao longo do tempo e, no momento da aposentadoria, recebem os benefícios acumulados.
      </string>
 
     <string name="investimento_startups">
-         Investimento em startups: /n
+         Investimento em startups:
 Investir em startups é uma opção de investimento de alto risco, mas com potencial de retorno significativo. Os investidores fornecem capital para startups em estágio inicial em troca de participação acionária. Esse tipo de investimento requer pesquisa cuidadosa e conhecimento do mercado de startups.
      </string>
 
 
     <string name="fundos_investimentos">
         FUNDOS DE INVESTIMENTOS
-
 Por fim, não poderíamos deixar de falar nos Fundos de Investimentos. Eles são uma modalidade coletiva de aplicação, que está fazendo bastante sucesso atualmente. O seu funcionamento está baseado em uma reunião de vários clientes em torno de um objetivo em comum, mas sua gestão é feita por profissionais do mercado.
     </string>
 </resources>
